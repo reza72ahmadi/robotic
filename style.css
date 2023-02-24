@@ -1,0 +1,80 @@
+/* Extra small devices (phones, 600px and down) */
+* {
+    margin: 0 auto;
+}
+
+
+
+nav>ul {
+    text-align: right;
+    list-style-type: none;
+    position: relative;
+    bottom: 10px;
+    right: 100px;
+
+}
+
+ul>li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.header {
+    background-color: rgb(138, 144, 255, 0.4);
+    position: fixed;
+    width: 100%;
+}
+
+section.banner {
+    background-image: url(.//img/banner-bg.jpg);
+    background-repeat: round;
+    height: 750px;
+
+
+}
+
+div.headerLogo {
+    padding: 20px 0px 6px 100px;
+}
+
+.dropBtn{
+    background-color: white;
+    color: rgb(137, 144, 255, 0.9);
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    bottom: 50px;
+
+
+}
+.dropDown{
+    position: relative;
+    display: none;
+}
+.dropDownContent{
+    display: none;
+    position: absolute;
+    background-color:  rgb(137, 144, 255, 0.9);
+    box-shadow: 0px 8px 16px 0px rgb(137, 144, 255, 0.9);
+    min-width:160px ;
+}
+.dropDownContent a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropDownContent a:hover{
+background-color: aliceblue;
+}
+.dropDown:hover .dropDownContent{
+display: block;
+
+}
+.dropDown:hover .dropBtn{
+    background-color: aliceblue;
+}

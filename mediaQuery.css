@@ -1,0 +1,120 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+    ul>li {
+        display: none;
+    }
+
+    img.logo {
+        width: 120px;
+
+    }
+
+    div.headerLogo {
+        padding: 20px 0px 15px 60%;
+    }
+
+    .dropDown {
+        position: relative;
+        display: inline;
+    }
+
+    .bannerImage {
+        width: 100%;
+        padding: 50px 0px 0px 0px;
+        position: relative;
+        top: 140px;
+        left: 25px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    ul>li {
+        display: inline;
+        color: white;
+        font-size: 10px;
+        padding-right: 10px;
+
+    }
+
+    img.logo {
+        width: 120px;
+    }
+
+    div.headerLogo {
+        padding: 20px 0px 0px 20px;
+        position: relative;
+        top: 150px;
+        left: 80px;
+
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    ul>li {
+        display: inline;
+        color: white;
+        font-size: 12px;
+        padding-right: 10px;
+
+    }
+
+    div.headerLogo {
+        padding: 20px 0px 0px 60px;
+       
+    }
+
+    .bannerImage {
+        width: 70%;
+        position: relative;
+        padding: 50px 0px 0px 0px;
+        left: 270;
+        top: 0px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    ul>li {
+        display: inline;
+        color: white;
+        font-size: 15px;
+        padding-right: 15px;
+        
+    }
+    .bannerImage{
+        width: 80%;
+        padding: 50px 0px 0px 0px;
+        position: relative;
+        left: 235px;
+        top: 0px;
+    }
+    div.headerLogo{
+        padding: 20px 0px 0px 80px;
+ 
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+    ul>li {
+        display: inline;
+        color: white;
+        font-size: 15px;
+        padding-right: 20px;
+        
+    }
+    .bannerImage{
+        width: 100%;
+        position: relative;
+        left: 50px;
+        top: 0px;
+    }
+    div.headerLogo{
+        padding: 20px 0px 0px 80px;
+ 
+    }
+}
