@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 400px) {
     ul>li {
         display: none;
     }
@@ -25,11 +25,37 @@
         top: 140px;
         left: 25px;
     }
+
+    .bannerSubText {
+        padding: 0px 0px 0px 0px;
+        font-size: 9px;
+        position: relative;
+        padding-left: 4%;
+        bottom: 40%;
+    }
+
+    .bannerText {
+        padding: 0px 0px 0px 0px;
+        font-size: 25px;
+        font-weight: 300;
+        width: 90%;
+        position: relative;
+        bottom: 40%;
+    }
+
+    .bannerBtn {
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-left: 4%;
+        position: relative;
+        bottom: 280px;
+    }
+
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 400px) {
     ul>li {
         display: inline;
         color: white;
@@ -42,18 +68,48 @@
         width: 120px;
     }
 
-    div.headerLogo {
+    /* div.headerLogo {
         padding: 20px 0px 0px 20px;
         position: relative;
         top: 150px;
         left: 80px;
 
+    } */
+
+    .bannerImage>img {
+        width: 80%;
+        padding: 80px 10% 0px 0px;
+        position: relative;
+        top: 150px;
+        left: 50px;
     }
+
+    .bannerSubText {
+        position: relative;
+        padding: 80px 10% 0px 2%;
+        font-size: 12px;
+        bottom: 40%;
+    }
+    .bannerText{
+        padding: 180px 0px 0px 2px;
+        font-size: 40px;
+        width: 90%;
+        position: relative;
+        bottom: 47%;
+    }
+    .bannerBtn{
+        font-size: 14px;
+        padding: 13px 21px;
+        margin-left: 2%;
+        position: relative;
+        bottom: 300px;
+    }
+   
 }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 650px) {
     ul>li {
         display: inline;
         color: white;
@@ -64,7 +120,7 @@
 
     div.headerLogo {
         padding: 20px 0px 0px 60px;
-       
+
     }
 
     .bannerImage {
@@ -77,24 +133,26 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 850px) {
     ul>li {
         display: inline;
         color: white;
         font-size: 15px;
         padding-right: 15px;
-        
+
     }
-    .bannerImage{
+
+    .bannerImage {
         width: 80%;
         padding: 50px 0px 0px 0px;
         position: relative;
         left: 235px;
         top: 0px;
     }
-    div.headerLogo{
+
+    div.headerLogo {
         padding: 20px 0px 0px 80px;
- 
+
     }
 }
 
@@ -105,16 +163,18 @@
         color: white;
         font-size: 15px;
         padding-right: 20px;
-        
+
     }
-    .bannerImage{
+
+    .bannerImage {
         width: 100%;
         position: relative;
         left: 50px;
         top: 0px;
     }
-    div.headerLogo{
+
+    div.headerLogo {
         padding: 20px 0px 0px 80px;
- 
+
     }
 }

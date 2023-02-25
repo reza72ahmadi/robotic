@@ -3,7 +3,9 @@
     margin: 0 auto;
 }
 
-
+body{
+    font-family:"Poppins" sans-serif;
+}
 
 nav>ul {
     text-align: right;
@@ -77,4 +79,33 @@ display: block;
 }
 .dropDown:hover .dropBtn{
     background-color: aliceblue;
+}
+.bannerImage{
+float: right;
+padding: 190px 20% 0px 0px;
+}
+.bannerText{
+    padding: 190px 35%  0px 0px ;
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+    width: 500px;
+}
+.bannerSubText{
+    padding: 190px 20% 0px 21%;
+    color: white;
+    font-size: 13px;
+    bottom: 185px;
+}
+.bannerBtn{
+    background-color: white;
+    padding: 13px 21px;
+    border: none;
+    font-size: 15px;
+    margin-left: 20%;
+    position: relative;
+    bottom: 160px;
+}
+.bannerImage > img{
+width: 100%;
 }
