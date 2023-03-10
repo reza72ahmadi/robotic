@@ -1,180 +1,219 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width:600px) {
     ul>li {
         display: none;
     }
 
-    img.logo {
-        width: 120px;
-
+    div.headerLogo {
+        float: right;
+        position: relative;
+        right: 10%;
+        bottom: 5px;
     }
 
-    div.headerLogo {
-        padding: 20px 0px 15px 60%;
+    img.logo {
+        width: 120px;
     }
 
     .dropDown {
         position: relative;
         display: inline;
+        top: 30px;
+        left: 15px;
     }
 
-    .bannerImage {
-        width: 100%;
-        padding: 50px 0px 0px 0px;
+    .bannerImg>img {
+        width: 90%;
         position: relative;
-        top: 140px;
-        left: 25px;
-    }
-
-    .bannerSubText {
-        padding: 0px 0px 0px 0px;
-        font-size: 9px;
-        position: relative;
-        padding-left: 4%;
-        bottom: 40%;
+        left: 5%;
+        right: 5%;
     }
 
     .bannerText {
-        padding: 0px 0px 0px 0px;
-        font-size: 25px;
-        font-weight: 300;
+        position: relative;
+        top: 70px;
+        font-size: 40px;
         width: 90%;
-        position: relative;
-        bottom: 40%;
-    }
-
-    .bannerBtn {
-        font-size: 10px;
-        padding: 10px 15px;
-        margin-left: 4%;
-        position: relative;
-        bottom: 280px;
-    }
-
-}
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 400px) {
-    ul>li {
-        display: inline;
-        color: white;
-        font-size: 10px;
-        padding-right: 10px;
-
-    }
-
-    img.logo {
-        width: 120px;
-    }
-
-    /* div.headerLogo {
-        padding: 20px 0px 0px 20px;
-        position: relative;
-        top: 150px;
-        left: 80px;
-
-    } */
-
-    .bannerImage>img {
-        width: 80%;
-        padding: 80px 10% 0px 0px;
-        position: relative;
-        top: 150px;
-        left: 50px;
     }
 
     .bannerSubText {
         position: relative;
-        padding: 80px 10% 0px 2%;
-        font-size: 12px;
-        bottom: 40%;
+        top: 80px;
+        font-size: 13px;
+        width: 90%;
     }
-    .bannerText{
-        padding: 180px 0px 0px 2px;
-        font-size: 40px;
+
+    .bannerBtn {
+        position: relative;
+        top: 100px;
+        padding: 15px 20px 15px 20px;
+        left: 5%;
+    }
+
+}
+
+/* ----------------------601------------------------ */
+@media only screen and (min-width:601px) {
+    ul>li {
+        display: none;
+        color: white;
+        font-size: 10px;
+        padding-right: 10px;
+    }
+
+    .dropDown {
+        position: relative;
+        display: inline;
+        top: 30px;
+        left: 15px;
+    }
+
+    div.headerLogo {
+        float: right;
+        position: relative;
+        right: 10%;
+        bottom: 5px;
+    }
+
+    img.logo {
+        width: 160px;
+    }
+
+    .bannerImg>img {
         width: 90%;
         position: relative;
-        bottom: 47%;
     }
-    .bannerBtn{
-        font-size: 14px;
-        padding: 13px 21px;
-        margin-left: 2%;
+
+    .bannerText {
         position: relative;
-        bottom: 300px;
-    }
-   
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 650px) {
-    ul>li {
-        display: inline;
-        color: white;
-        font-size: 12px;
-        padding-right: 10px;
-
-    }
-
-    div.headerLogo {
-        padding: 20px 0px 0px 60px;
-
-    }
-
-    .bannerImage {
+        top: 70px;
+        font-size: 40px;
         width: 70%;
+    }
+
+    .bannerSubText {
         position: relative;
-        padding: 50px 0px 0px 0px;
-        left: 270;
-        top: 0px;
+        top: 80px;
+        font-size: 13px;
+        width: 70%;
+    }
+
+    .bannerBtn {
+        position: relative;
+        top: 100px;
+        padding: 15px 20px 15px 20px;
+        left: 15%;
+    }
+
+    section.banner {
+        background-image: url(./img/banner-bg.jpg);
+        height: 550px;
+        background-repeat: round;
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 850px) {
+/* ------------------------768---------------------- */
+@media only screen and (min-width:768px) {
     ul>li {
         display: inline;
-        color: white;
-        font-size: 15px;
-        padding-right: 15px;
-
+        position: relative;
+        top: 40px;
+        font-size: 14px;
     }
 
-    .bannerImage {
-        width: 80%;
-        padding: 50px 0px 0px 0px;
-        position: relative;
-        left: 235px;
-        top: 0px;
+    .dropDown {
+        display: none;
     }
 
     div.headerLogo {
-        padding: 20px 0px 0px 80px;
-
+        padding: 10px 0px 10px 0px;
+        float: left;
+        position: relative;
+        top: 10px;
+        left: 15px;
     }
+
+    .bannerImg>img {
+        width: 90%;
+    }
+
+    .bannerImg {
+        position: relative;
+        bottom: 16%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .bannerText {
+        position: relative;
+        top: 25%;
+        right: 30%;
+        width: 35%;
+        font-size: 40px;
+    }
+
+    .bannerSubText {
+        position: relative;
+        top: 27%;
+        right: 30%;
+        width: 35%;
+        font-size: 14px;
+    }
+
+    .bannerBtn {
+        position: relative;
+        top: 30%;
+        left: 3%;
+    }
+
+    section.banner {
+        background-image: url(./img/banner-bg.jpg);
+        height: 650px;
+        background-repeat: round;
+    }
+
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1400px) {
-    ul>li {
-        display: inline;
-        color: white;
-        font-size: 15px;
-        padding-right: 20px;
-
-    }
-
-    .bannerImage {
-        width: 100%;
+@media only screen and (min-width:992px) {
+    div.headerLogo {
+        padding: 10px 0px 10px 60px;
         position: relative;
+        top: 10px;
         left: 50px;
-        top: 0px;
     }
 
-    div.headerLogo {
-        padding: 20px 0px 0px 80px;
+    img.logo {
+        width: 170px;
+    }
 
+    .bannerImg>img {
+        width: 100%;
+    }
+
+    .bannerImg {
+        position: relative;
+        bottom: 20%;
+        right: 10%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .bannerText {
+        position: relative;
+        top: 25%;
+        right: 23%;
+        width: 30%;
+        font-size: 55px;
+    }
+
+    .bannerSubText {
+        position: relative;
+        top: 25%;
+        right: 23%;
+        width: 30%;
+        font-size: 14px;
+    }
+
+    .bannerBtn {
+        position: relative;
+        top: 28%;
+        left: 12%;
     }
 }

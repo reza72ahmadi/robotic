@@ -1,111 +1,147 @@
-/* Extra small devices (phones, 600px and down) */
 * {
     margin: 0 auto;
 }
 
-body{
-    font-family:"Poppins" sans-serif;
+body {
+    font-family: "Poppins", sans-serif;
 }
 
 nav>ul {
+    position: relative;
     text-align: right;
     list-style-type: none;
-    position: relative;
-    bottom: 10px;
-    right: 100px;
-
+    bottom: 20px;
+    right: 40px;
 }
 
 ul>li {
     display: inline;
-    margin-right: 20px;
-    
+    padding-right: 20px;
+    font-size: 15px;
+    color: white;
 }
 
-.header {
-    background-color: rgb(138, 144, 255, 0.4);
+header.header {
+    background-color: rgba(138, 144, 255, 1);
     position: fixed;
     width: 100%;
 }
 
+.headerLogo {
+    padding: 15px 0px 0px 40px;
+}
+
 section.banner {
-    background-image: url(.//img/banner-bg.jpg);
+    background-image: url(./img/banner-bg.jpg);
+    height: 650px;
     background-repeat: round;
-    height: 750px;
-
-
+    
 }
 
-div.headerLogo {
-    padding: 20px 0px 6px 100px;
-}
-
-.dropBtn{
-    background-color: white;
-    color: rgb(137, 144, 255, 0.9);
-    padding: 10px;
-    font-size: 12px;
+.dropDownBtn {
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding: 5px 7px 5px 7px;
     float: left;
     position: relative;
-    bottom: 50px;
-
-
+    left: 15px;
+    bottom: 25px;
 }
-.dropDown{
+
+.dropDown {
     position: relative;
     display: none;
 }
-.dropDownContent{
-    display: none;
+
+.dropDownContent {
     position: absolute;
-    background-color:  rgb(137, 144, 255, 0.9);
-    box-shadow: 0px 8px 16px 0px rgb(137, 144, 255, 0.9);
-    min-width:160px ;
+    display: none;
+    min-width: 160px;
 }
-.dropDownContent a{
+
+.dropDownContent a {
     color: white;
-    padding: 12px 16px;
     text-decoration: none;
     display: block;
+    padding: 12px 16px;
 }
-.dropDownContent a:hover{
-background-color: aliceblue;
-}
-.dropDown:hover .dropDownContent{
-display: block;
+
+.dropDownContent a:hover {
+    background-color: white;
 
 }
-.dropDown:hover .dropBtn{
-    background-color: aliceblue;
+
+.dropDown:hover .dropDownContent {
+    display: block;
 }
-.bannerImage{
-float: right;
-padding: 190px 20% 0px 0px;
+
+.dropDown:hover .dropDownBtn {
+    background: white;
 }
-.bannerText{
-    padding: 190px 35%  0px 0px ;
-    color: white;
-    font-size: 60px;
-    font-weight: 300;
-    width: 500px;
-}
-.bannerSubText{
-    padding: 190px 20% 0px 21%;
-    color: white;
-    font-size: 13px;
-    bottom: 185px;
-}
-.bannerBtn{
-    background-color: white;
-    padding: 13px 21px;
-    border: none;
-    font-size: 15px;
-    margin-left: 20%;
+
+.bannerImg {
+    float: right;
+    padding: 140px 12% 0px 0px;
+   }
+
+.bannerText {
     position: relative;
-    bottom: 160px;
+    top: 140px;
+    color: white;
+    font-size: 70px;
+    width: 80%;
+   
 }
-.bannerImage > img{
-width: 100%;
+
+.bannerSubText {
+    position: relative;
+    top: 153px;
+    color: white;
+    width: 80%;
+   }
+
+.bannerBtn {
+    position: relative;
+    left: 10%;
+    top: 166px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    z-index: 1;
+}
+
+h1.featuredTitle {
+    font-size: 35px;
+    text-align: center;
+    padding: 110px 0px 0px 0px;
+    color: #222222;
+}
+p.featuredP{
+    text-align: center;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 300; 
+}
+div.products{
+   text-align: center;
+    display: flex;
+    /* border: solid black 1px;  */
+    padding: 70px 40px 0px 40px;
+
+}
+.products > div{
+    border: #d4d3d3 solid 1px;
+    position: relative;
+    left: 10px;
+}
+.firstp, .secondp, .thirdp, .fourthp{
+    width: 270px;
+}
+.firstProduct, .secondProduct, .thirdProduct, .fourthProduct{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+.firstImg, .secondImg, .thirdImg, .fourthImg{
+padding: 10px 0px 0px 0px;
 }
