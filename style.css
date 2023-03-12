@@ -1,11 +1,13 @@
 * {
     margin: 0 auto;
+    padding: 0%;
 }
 
 body {
     font-family: "Poppins", sans-serif;
 }
 
+/*------------------------ navigation section -------------------*/
 nav>ul {
     position: relative;
     text-align: right;
@@ -31,12 +33,6 @@ header.header {
     padding: 15px 0px 0px 40px;
 }
 
-section.banner {
-    background-image: url(./img/banner-bg.jpg);
-    height: 650px;
-    background-repeat: round;
-    
-}
 
 .dropDownBtn {
     border: none;
@@ -79,69 +75,178 @@ section.banner {
     background: white;
 }
 
-.bannerImg {
-    float: right;
-    padding: 140px 12% 0px 0px;
-   }
-
-.bannerText {
-    position: relative;
-    top: 140px;
-    color: white;
-    font-size: 70px;
-    width: 80%;
-   
+/*------------------------ banner section -------------------*/
+section.banner {
+    display: flex;
+    padding: 100px 0px 0px 0px;
+    background-image: url(./img/banner-bg.jpg);
+    height: 530px;
 }
 
-.bannerSubText {
-    position: relative;
-    top: 153px;
+.banner_img {
+    padding: 15px 8% 0px 0px
+}
+.bannerText{
     color: white;
-    width: 80%;
-   }
-
-.bannerBtn {
+    font-size: 3rem;
+    padding: 68px 25% 0px 16%;
+    line-height: 135%;
+}
+.bannerSubText{
+    color: white;
+    font-size: 14px;
+    padding: 10px 25% 0px 16%;
+    line-height: 135%;
+}
+.bannerBtn{
     position: relative;
-    left: 10%;
-    top: 166px;
-    padding: 10px;
+    left: 16%;
+    top: 20px;
+    padding: 13px 3% 13px 3%;
     background-color: white;
     border: none;
-    z-index: 1;
 }
 
+/*------------------------ featured section -------------------*/
 h1.featuredTitle {
     font-size: 35px;
     text-align: center;
     padding: 110px 0px 0px 0px;
     color: #222222;
 }
-p.featuredP{
+
+p.featuredP {
     text-align: center;
     color: #777777;
     font-family: "Poppins", sans-serif;
     padding: 10px 0px 0px 0px;
     font-size: 14px;
-    font-weight: 300; 
+    font-weight: 300;
 }
-div.products{
-   text-align: center;
-    display: flex;
-    /* border: solid black 1px;  */
-    padding: 70px 40px 0px 40px;
 
+div.products {
+    text-align: center;
+    display: flex;
 }
-.products > div{
-    border: #d4d3d3 solid 1px;
+
+
+.firstp,
+.secondp,
+.thirdp,
+.fourthp {
+    width: 50%;
+}
+
+.firstProduct,
+.secondProduct,
+.thirdProduct,
+.fourthProduct {
+    box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
+    margin-bottom: 40px;
+    padding: 1%;
+}
+
+.firstImg,
+.secondImg,
+.thirdImg,
+.fourthImg {
+    padding: 10px 0px 0px 0px;
+}
+
+/*-----------------------section about -------------------*/
+
+section.about div {
+    /* border: solid 1px black; */
+    margin-top: 80px;
+}
+
+section.about {
+    display: flex;
+}
+
+img.pic {
+    width: 680px;
+}
+
+.h1_about {
+    padding: 140px 45% 0px 2%;
+    font-size: 2rem;
+}
+
+.h4_about {
+    padding: 20px 30% 0px 2%;
+}
+
+.p_about {
+    padding: 20px 5% 0px 2%;
+}
+
+.btn_about {
     position: relative;
-    left: 10px;
+    left: 2%;
+    top: 20px;
 }
-.firstp, .secondp, .thirdp, .fourthp{
-    width: 270px;
+
+/*------------------------ movie section -------------------*/
+section.movie {
+    display: flex;
+    padding: 0%;
 }
-.firstProduct, .secondProduct, .thirdProduct, .fourthProduct{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+
+/*------------------------ feature section -------------------*/
+section.somfeatur {
+    background-image: url(./img/feature-bg.jpg);
+    padding: 0%;
+    height: 700px;
 }
-.firstImg, .secondImg, .thirdImg, .fourthImg{
-padding: 10px 0px 0px 0px;
+
+.h1_featur {
+    text-align: center;
+    padding: 120px 0px 0px 0px;
+    font-size: 36px;
+    color: white;
+}
+
+.p_featur {
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    color: white;
+}
+
+.first_three {
+    display: flex;
+    padding: 100px 50px 0px 50px;
+}
+
+.second_three {
+    display: flex;
+    padding: 50px 50px 0px 50px;
+    ;
+}
+
+.first_featur {
+    background-color: white;
+    margin: 0px 2% 0px 2%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.second_featur {
+    background-color: white;
+    margin: 0px 2% 0px 2%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.third_featur {
+    background-color: white;
+    margin: 0px 2% 0px 2%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/*------------------------ footer section -------------------*/
+.footer {
+    background-image: url(./img/footer-bg.jpg);
+    height: 520px;
 }

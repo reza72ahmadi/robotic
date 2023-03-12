@@ -21,34 +21,57 @@
         left: 15px;
     }
 
-    .bannerImg>img {
-        width: 90%;
-        position: relative;
-        left: 5%;
-        right: 5%;
+    section.banner {
+        display: block;
+        padding: 50px 0px 0px 0px;
+        height: 100%;
     }
 
     .bannerText {
-        position: relative;
-        top: 70px;
-        font-size: 40px;
-        width: 90%;
+        color: white;
+        font-size: 2rem;
+        padding: 0px 5% 0px 8%;
+        line-height: 135%;
+
     }
 
     .bannerSubText {
-        position: relative;
-        top: 80px;
-        font-size: 13px;
-        width: 90%;
+        color: white;
+        font-size: 14px;
+        padding: 10px 5% 0px 8%;
+        line-height: 135%;
     }
 
     .bannerBtn {
         position: relative;
-        top: 100px;
-        padding: 15px 20px 15px 20px;
-        left: 5%;
+        left: 8%;
+        top: 20px;
+        padding: 13px 3% 13px 3%;
+        background-color: white;
+        border: none;
     }
 
+    .banner_img {
+        padding: 15px 8% 0px 0px;
+        width: 90%;
+    }
+
+    .imge {
+        width: 90%;
+    }
+
+    div.products {
+        display: block;
+        padding: 70px 5% 0px 5%;
+    }
+
+    section.about {
+        display: block;
+    }
+    section.movie {
+        display: block;
+        padding: 0%;
+    }
 }
 
 /* ----------------------601------------------------ */
@@ -78,36 +101,49 @@
         width: 160px;
     }
 
-    .bannerImg>img {
-        width: 90%;
-        position: relative;
+    section.banner {
+        display: block;
+        padding: 50px 0px 0px 0px;
+        background-image: url(./img/banner-bg.jpg);
+        height: 550px;
+    }
+
+    .banner_img {
+        padding: 15px 8% 0px 0px;
+        width: 70%;
+
     }
 
     .bannerText {
-        position: relative;
-        top: 70px;
-        font-size: 40px;
+        color: white;
+        font-size: 2rem;
+        padding: 0px 5% 0px 5%;
         width: 70%;
     }
 
     .bannerSubText {
-        position: relative;
-        top: 80px;
-        font-size: 13px;
+        color: white;
+        font-size: 14px;
+        padding: 0px 5% 0px 5%;
         width: 70%;
     }
 
     .bannerBtn {
         position: relative;
-        top: 100px;
-        padding: 15px 20px 15px 20px;
         left: 15%;
+        top: 20px;
+        padding: 13px 3% 13px 3%;
+        background-color: white;
+        border: none;
     }
 
-    section.banner {
-        background-image: url(./img/banner-bg.jpg);
-        height: 550px;
-        background-repeat: round;
+    div.products {
+        display: list-item;
+        padding: 70px 8% 0px 40px;
+    }
+
+    section.about {
+        display: block;
     }
 }
 
@@ -132,42 +168,57 @@
         left: 15px;
     }
 
-    .bannerImg>img {
-        width: 90%;
+    section.banner {
+        background-image: url(./img/banner-bg.jpg);
+        height: 100%;
+        background-repeat: round;
+        display: flex;
     }
 
-    .bannerImg {
+    .banner_img {
+        padding: 40px 4% 100px 0px;
+      
         position: relative;
-        bottom: 16%;
-        padding: 0px 0px 0px 0px;
+    }
+    div>img.imge{
+        width: 75%;
     }
 
     .bannerText {
+        color: white;
         position: relative;
-        top: 25%;
-        right: 30%;
-        width: 35%;
-        font-size: 40px;
+        top: 70px;
+        left: 20%;
+        font-size: 2rem;
+        padding: 0px 60px 0px 0px;
+      
+       
     }
 
     .bannerSubText {
-        position: relative;
-        top: 27%;
-        right: 30%;
-        width: 35%;
+        color: white;
         font-size: 14px;
+        position: relative;
+        top: 80px;
+        left: 20%;
+        padding: 0px 60px 0px 0px;
+      
     }
 
     .bannerBtn {
         position: relative;
-        top: 30%;
-        left: 3%;
+        left: 29%;
+        top: 90px;
+        padding: 15px 5% 15px 5%;
+        background-color: white;
+        border: none;
     }
 
-    section.banner {
-        background-image: url(./img/banner-bg.jpg);
-        height: 650px;
-        background-repeat: round;
+
+
+    div.products {
+        display: list-item;
+        padding: 70px 5% 0px 5%;
     }
 
 }
@@ -184,36 +235,50 @@
         width: 170px;
     }
 
-    .bannerImg>img {
-        width: 100%;
+    section.banner {
+        display: flex;
+        padding: 100px 0px 0px 0px;
+        background-image: url(./img/banner-bg.jpg);
+        height: 530px;
     }
 
-    .bannerImg {
-        position: relative;
-        bottom: 20%;
-        right: 10%;
-        padding: 0px 0px 0px 0px;
+    .banner_img {
+        padding: 15px 0% 0px 0px
     }
 
     .bannerText {
+        color: white;
+        font-size: 3rem;
+        padding: 0px 0% 0px 0%;
         position: relative;
-        top: 25%;
-        right: 23%;
-        width: 30%;
-        font-size: 55px;
+        left: 5%;
+        
     }
 
     .bannerSubText {
-        position: relative;
-        top: 25%;
-        right: 23%;
-        width: 30%;
+        color: white;
         font-size: 14px;
+        padding: 0px 0% 0px 0%;
+        position: relative;
+        left: 5%;
+        
     }
 
     .bannerBtn {
         position: relative;
-        top: 28%;
-        left: 12%;
+        left: 20%;
+        top: 100px;
+        padding: 13px 3% 13px 3%;
+        background-color: white;
+        border: none;
+    }
+
+    div.products {
+        display: flex;
+        padding: 70px 1% 0px 1%;
+    }
+
+    section.about {
+        display: flex;
     }
 }
