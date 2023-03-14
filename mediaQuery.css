@@ -145,6 +145,10 @@
     section.about {
         display: block;
     }
+    section.movie {
+        display: block;
+        padding: 0%;
+    }
 }
 
 /* ------------------------768---------------------- */
@@ -219,6 +223,10 @@
     div.products {
         display: list-item;
         padding: 70px 5% 0px 5%;
+    }
+    section.movie {
+        display: flex;
+        padding: 0%;
     }
 
 }
